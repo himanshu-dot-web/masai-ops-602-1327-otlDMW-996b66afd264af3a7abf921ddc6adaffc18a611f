@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Masai Restauran Management</title>
+    <style>
+      /* All Your Css goes here  */
+      table{
+        width: 80%;
+        margin:auto;
+        text-align: center;
+        box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+        margin: 50px auto;
+      }
+      thead{
+        background-color: gold;
+        box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+
+      }
+      tbody>tr{
+        box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+        height: 20px;
+      }
+      tbody>tr>td:last-child{
+        background-color: green;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Masai Restauran Management</h2>
+      <div>
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./dashboard.html">
+          <h2>Dashboard</h2>
+        </a>
+        <a href="./favourites.html">
+          <h2>Favourites</h2>
+        </a>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Type</th>
+          <!-- <th>End Date</th> -->
+          <th>Category</th>
+          <th>Price</th>
+          <th>Add To Favourite</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Update the rows here using jsvascript -->
+      </tbody>
+    </table>
+  </body>
+  <script src="./Scripts/favourite.js"></script>
+</html>
